@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetin - 2</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        
+        @font-face{
+            font-family: "robo" ;
+            src: url(fontes/idroid.otf) format('opentype'), url(fontes/idroid.otf) format("truetype");
+        }
+        header{
+            background-image: linear-gradient(rgb(41, 216, 140),rgb(7, 90, 54));;
+            height: 250px;
+            width: 1575px;
+            margin-top: -21px;
+            margin-left: -8px;
+
+    
+        }
+        header > p{
+            text-align: center;
+            color: rgb(202, 201, 201);
+        }
+
+        header > h1{
+            text-align: center;
+            text-justify: auto;
+            color: white;
+        }
+
+
+        .botão{
+           display: inline-block;
+           margin: 10px -4px 0px 18px;
+           color: white;
+           text-decoration: none;
+
+        }
+        .botão:hover{
+            background-color: rgb(132, 246, 172);
+            padding: 10px 4px 0px 18px;
+        }
+
+        body{
+            background-color: rgb(132, 246, 172);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        main{
+            width: 830px;
+            background-color: white;
+            border-radius: 10px;
+            margin: auto;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        article{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        h1,h2{
+            color: rgb(7, 90, 54);
+            font-family: "robo"
+        }
+
+        section > h2{
+            background-image: linear-gradient(to right, rgb(198, 247, 215), white);
+             
+        }
+
+        p > a{
+            text-decoration-line: none;
+            color: rgb(3, 112, 63);
+            ;
+        }
+        section > picture{
+            width: 700px;
+    
+        }
+        #robozin{
+            margin-left: 230px;
+        }
+        #video{
+            margin-left: 100px;
+        }
+        div{
+            background-color: rgb(0, 51, 28);
+            padding: 40px;
+            margin: auto;
+        }
+
+        #quadro{
+            background-color:rgb(132, 246, 172) ;
+    
+        }
+        #quadro > h3{
+            background-color: rgb(3, 112, 63);
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        #quadro >ul{
+            display: inline-block;
+            text-decoration-line: underline;
+            margin-right: 20px;
+        }
+
+        footer{
+            background-color: rgb(0, 51, 28);
+            color: grey;
+            padding: -5px 10px -5px 10px;
+            text-align: center
+        }
+        footer > p{
+            display: inline-block
+        }
+        .colore{
+            color: white ;
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        <br>
+            <h1>CURIOSIDADES DE TECNLOGIA</h1>
+        <br>
+            <p id="descrição">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        <br>
+        <br>
+                <a href="#" class="botão">Home</a>
+                <a href="#" class="botão">Notícias</a>
+                <a href="#" class="botão">Curiosidades</a>
+                <a href="#" class="botão">Fale Conosco</a>
+    </Header>
+    <main>
+        <article>
+            <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
+            <p>Provavelmente você sabe que o sistema operacional Android, mantido pela Google é um dos mais utilizados  para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+            <section>
+                <h2>A PRIMEIRA VERSÃO</h2>
+                <p>A primeira tentariva de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="">Dan Morril🔗</a>. Ele conta que abriu o <a href="https://inkscape.org/" target="_blank">Inkscape🔗</a>(Software livre para verotização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote. </p>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="imagens/dan-droids-pq.png">
+                    <img src="imagens/dan-droids.png" alt="Quatro máquinas humanóides com colorações diferentes">
+                </picture>
+                <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids</p>
+            </section>
+            <section>
+                <h2>SURGE UM NOVO MASCOTE</h2>
+                <p>A ideia de ter um mascote foi amadadurecendo e ami ssão foi a=passada para uma profissional da área. A ilustradorea Russa <a href="">Irina Block🔗</a>, também funcionária do Google, Ficou com a missão de presentar o pequeno robô de uma maneira mais agradável. </p>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="imagens/irina-blok-pq.jpg">
+                    <img src="imagens/irina-blok.jpg" alt="">
+                </picture>
+                <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria ferar identificação rápida com quem o olha. Surgiu então o Bugdroir, o novo mascote do Android.</p>
+                <img src="imagens/bugdroid.png"  alt="" id="robozin">
+                <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetibo.</p>
+                <div>
+                    <picture id="video">
+                        
+                    </picture>
+                </div>
+            </section>
+            <section id="quadro">
+                <h3>Quer aprender mais?</h3>
+                Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+                <br>
+                <ul>
+                    <li>1.5 - Cupcake</li>
+                    <li>1.6 - Donut</li>
+                    <li>3.0 - Eclair</li>
+                    <li>2.2 - Froyo</li>
+                    <li>2.3 - Gingerbread</li>
+                    <li>3.0 - Honeycomb</li>
+                    <li>4.0 - Ice Cream Sandwich</li>
+                </ul>
+                <ul>
+                    <li>4.1 - Jelly Bean</li>
+                    <li>4.4 - Kitkat</li>
+                    <li>5.0 - Lolipop</li>
+                    <li>6.0 - Marshmallow</li>
+                    <li>7.0 - Nougat</li>
+                    <li>8.0 - Oreo</li>
+                    <li>9.0 - Pie</li>
+                </ul>
+                <p>Infelizmente o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+                <p>Acesse aqui o site <a href="">Android History🔗</a>Para conhecer a sequência das versões "adocicadas" e o que cada uma trouce para o sistema Android.</p>
+            </section>
+            <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o Sistema Android e seu simpátivo mascote</p>
+        </article>
+    </main>
+    <br>
+    <footer>
+        <p>Site criado por</p>
+        <p class="colore">Carlos Eduardo</p>
+        <p>com a contribuição e fonte de</p>
+        <p class="colore">Gustavo Guanabara</p>
+    </footer>
+    
+    
+</body>
+</html>
